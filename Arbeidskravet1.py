@@ -6,7 +6,7 @@ Quynh.Thao.Nguyen
 """
 
 km_per_år = 10000
-# Deklarere kostnader for Elbin
+# Deklarere kostnader for Elbil
 elbil_forsikring = 5000
 elbil_traffikkforsikring = 8.38 * 365
 elbil_drivforbruk = km_per_år * 0.2* 2
@@ -27,5 +27,5 @@ bensin_total = bensin_forsikring+ bensin_trafikkforsikring + bensin_drivforbruk 
 print ('Årlige totalkosnadene for elbil er :', elbil_total,' kr/år')
 print ('Årlige totalkosnadene for bensinbil er :',bensin_total,' kr/år')
 
-# Beregn Kostnadsdifferanse mellom elbin og bensinbil 
-print ('Kostnadsdifferanse mellom elbin og bensinbil er:',elbil_total - bensin_total, 'kr /år' )
+# Beregn Kostnadsdifferanse mellom elbil og bensinbil 
+print ('Kostnadsdifferanse mellom elbil og bensinbil er:',elbil_total - bensin_total, 'kr /år' )
